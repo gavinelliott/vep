@@ -29,3 +29,96 @@ $path: "/public/images/";
 }
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
+
+#global-nav-bar {
+  display: inline-block;
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.nav-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.system-nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+
+  li {
+    float: left;
+    font-size: 1em;
+    display: block;
+
+    a {
+      display: block;
+      padding: 6px 20px;
+      margin-top: 6px;
+      text-decoration: none;
+      color: black;
+      cursor: pointer;
+    }
+
+    a:hover {
+      border-bottom: 5px solid $govuk-blue;
+      transition: .3s border;
+     }
+  }
+}
+
+.selected {
+   border-bottom: 5px inset $govuk-blue;
+ }
+
+ .selected:hover { border: none; transition: none; }
+
+ .button.button-secondary {     background-color: #eee;
+    color: #000;
+    box-shadow: 0 2px 0 #666; }
+
+
+    $form-input-denote-background:            $grey-3 !default;
+    $form-input-denote-background--error:     $red !default;
+    $form-input-denote-text--error:           $white !default;
+    $form-input-denote-border:                $grey-1 !default;
+    $form-input-denote-border-width:          2px !default;
+    $form-input-denote-padding:               12px !default;
+    $form-input-denote-padding--small:        4px !default;
+    $form-input-denote-padding--large:        ($form-input-denote-padding * 2) !default;
+
+.c-form-input-denote {
+  	position: absolute;
+  	margin: $form-input-denote-border-width 0 0 $form-input-denote-border-width;
+  	padding: 6px $form-input-denote-padding;
+  	background-color: $form-input-denote-background;
+  	line-height: 1;
+
+  	@include media(tablet) {
+  		padding: 7px $form-input-denote-padding;
+  	}
+
+  	// 1. Magic number from the width of the currency denote (11px)
+  	//    with cursor padding on input (4px). 11px+4px gives total 15px.
+  	&__input {
+  		margin: 0;
+  		padding-left: ($form-input-denote-padding--large + 15px); // [1]
+  	}
+
+  	// Account for additional 2px offset caused by error state.
+  	.error & {
+  		margin-top: ($form-input-denote-border-width * 2);
+  		margin-left: ($form-input-denote-border-width * 2);
+  		padding: 6px $form-input-denote-padding;
+  		background-color: $form-input-denote-background--error;
+  		color: $form-input-denote-text--error;
+
+  		@include media(tablet) {
+  			padding: 8px $form-input-denote-padding;
+  		}
+  	}
+  }
+
+a.status-green { background-color: #85994A; color: white; font-weight: bold; font-size: 14px; text-transform: uppercase; padding: 6px 8px 4px 8px; text-decoration: none;}

@@ -1,0 +1,95 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+    <form>
+        <div class="form-group">
+          <fieldset>
+
+            <legend>
+              <h1 class="heading-xlarge">
+                What is the outcome of this task?
+              </h1>
+            </legend>
+
+            <div class="multiple-choice" data-target="contact-by-email">
+              <input id="example-contact-by-email" type="radio" name="radio-contact-group" value="Yes">
+              <label for="example-contact-by-email">No change to award</label>
+            </div>
+
+            <div class="multiple-choice" data-target="contact-by-phone">
+              <input id="example-contact-by-phone" type="radio" name="radio-contact-group" value="No">
+              <label for="example-contact-by-phone">Award increased</label>
+            </div>
+            <div class="panel panel-border-narrow js-hidden" id="contact-by-phone">
+              <label class="form-label" for="contact-phone">Award value before</label>
+              <span class="c-form-input-denote">£</span>
+              <input class="form-control c-form-input-denote__input form-control-1-4" aria-labelledby="legend-heading" type="text" name="example">
+              <br /><br />
+              <label class="form-label" for="contact-phone">Award value after</label>
+              <span class="c-form-input-denote">£</span>
+              <input class="form-control c-form-input-denote__input form-control-1-4" aria-labelledby="legend-heading" type="text" name="example">
+            </div>
+
+            <div class="multiple-choice" data-target="contact-by-text">
+              <input id="example-contact-by-text" type="radio" name="radio-contact-group" value="No">
+              <label for="example-contact-by-text">Award decreased</label>
+            </div>
+            <div class="panel panel-border-narrow js-hidden" id="contact-by-text">
+              <label class="form-label" for="contact-phone">Award value before</label>
+              <span class="c-form-input-denote">£</span>
+              <input class="form-control c-form-input-denote__input form-control-1-4" aria-labelledby="legend-heading" type="text" name="example">
+              <br /><br />
+              <label class="form-label" for="contact-phone">Award value after</label>
+              <span class="c-form-input-denote">£</span>
+              <input class="form-control c-form-input-denote__input form-control-1-4" aria-labelledby="legend-heading" type="text" name="example">
+            </div>
+
+            <div class="multiple-choice" data-target="already-declared">
+              <input id="example-already-declared" type="radio" name="radio-contact-group" value="No">
+              <label for="example-already-declared">Award declared</label>
+            </div>
+
+            <div class="multiple-choice" data-target="already-averaged">
+              <input id="example-already-averaged" type="radio" name="radio-contact-group" value="No">
+              <label for="example-already-averaged">Award averaged</label>
+            </div>
+
+            <div class="multiple-choice" data-target="referred-to-fraud">
+              <input id="example-referred-to-fraud" type="radio" name="radio-contact-group" value="No">
+              <label for="example-referred-to-fraud">Referred to fraud</label>
+            </div>
+
+            <div class="multiple-choice" data-target="dormant">
+              <input id="example-dormant" type="radio" name="radio-contact-group" value="No">
+              <label for="example-dormant">Dormant</label>
+            </div>
+
+            <div class="multiple-choice" data-target="incorrect-rti">
+              <input id="example-incorrect-rti" type="radio" name="radio-contact-group" value="No">
+              <label for="example-incorrect-rti">Incorrect RTI</label>
+            </div>
+
+          </fieldset>
+        </div>
+</form>
+      <p><a href="outcome-recorded" class="button">Add outcome</a></p>
+
+
+
+
+
+
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}

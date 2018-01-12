@@ -1,0 +1,82 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "govuk_frontend_toolkit@7.1.0",
+        "scope": null,
+        "escapedName": "govuk_frontend_toolkit",
+        "name": "govuk_frontend_toolkit",
+        "rawSpec": "7.1.0",
+        "spec": "7.1.0",
+        "type": "version"
+      },
+      "/Users/gavinelliott/Sites/vep"
+    ]
+  ],
+  "_from": "govuk_frontend_toolkit@7.1.0",
+  "_id": "govuk_frontend_toolkit@7.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/govuk_frontend_toolkit",
+  "_nodeVersion": "0.10.48",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/govuk_frontend_toolkit-7.1.0.tgz_1507024875491_0.7325505942571908"
+  },
+  "_npmUser": {
+    "name": "alphagov",
+    "email": "govuk-dev@digital.cabinet-office.gov.uk"
+  },
+  "_npmVersion": "2.15.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "govuk_frontend_toolkit@7.1.0",
+    "scope": null,
+    "escapedName": "govuk_frontend_toolkit",
+    "name": "govuk_frontend_toolkit",
+    "rawSpec": "7.1.0",
+    "spec": "7.1.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/govuk_frontend_toolkit/-/govuk_frontend_toolkit-7.1.0.tgz",
+  "_shasum": "9c24ccbccd2b4df5ae9ecd3eeeac70b436597325",
+  "_shrinkwrap": null,
+  "_spec": "govuk_frontend_toolkit@7.1.0",
+  "_where": "/Users/gavinelliott/Sites/vep",
+  "author": {
+    "name": "Government Digital Service developers",
+    "email": "govuk-dev@digital.cabinet-office.gov.uk"
+  },
+  "bugs": {
+    "url": "https://github.com/alphagov/govuk_frontend_toolkit/issues"
+  },
+  "dependencies": {},
+  "description": "npm package for using the GOV.UK frontend toolkit",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "9c24ccbccd2b4df5ae9ecd3eeeac70b436597325",
+    "tarball": "https://registry.npmjs.org/govuk_frontend_toolkit/-/govuk_frontend_toolkit-7.1.0.tgz"
+  },
+  "gitHead": "57f8a0cac61fe935bd16f8ab908e84e99cd99b65",
+  "homepage": "https://github.com/alphagov/govuk_frontend_toolkit_npm#readme",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "alphagov",
+      "email": "govuk-dev@digital.cabinet-office.gov.uk"
+    }
+  ],
+  "name": "govuk_frontend_toolkit",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alphagov/govuk_frontend_toolkit_npm.git"
+  },
+  "scripts": {},
+  "version": "7.1.0"
+}
