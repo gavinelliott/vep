@@ -20,3 +20,8 @@ $(document).ready(function () {
   var showHideContent = new GOVUK.ShowHideContent()
   showHideContent.init()
 })
+
+
+$(document).on('click', 'tr', function() {
+  window.location = $(this).attr('data-href');
+});

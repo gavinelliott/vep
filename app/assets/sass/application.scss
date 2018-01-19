@@ -121,4 +121,8 @@ $path: "/public/images/";
   	}
   }
 
-a.status-green { background-color: #85994A; color: white; font-weight: bold; font-size: 14px; text-transform: uppercase; padding: 6px 8px 4px 8px; text-decoration: none;}
+.status-green { background-color: #85994A; color: white; font-weight: bold; font-size: 14px; text-transform: uppercase; padding: 6px 8px 4px 8px; text-decoration: none;}
+
+.status-black { background-color: #6F777A; color: white; font-weight: bold; font-size: 14px; text-transform: uppercase; padding: 6px 8px 4px 8px; text-decoration: none;}
+
+tr:hover { background-color: #ececec; cursor: pointer; }
