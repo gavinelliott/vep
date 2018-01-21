@@ -1,0 +1,94 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  MI
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-full">
+
+      <h1 class="heading-xlarge">
+        Team leader information
+      </h1>
+
+
+      <div class="column-one-third">
+        <div class="data">
+          <span class="data-item bold-xlarge">14</span>
+          <span class="data-item bold-xsmall">Alerts open</span>
+        </div>
+      </div>
+
+      <div class="column-one-third">
+        <div class="data">
+          <span class="data-item bold-xlarge">17</span>
+          <span class="data-item bold-xsmall">Alerts with outcomes</span>
+        </div>
+      </div>
+
+      <div class="column-one-third">
+        <div class="data">
+          <span class="data-item bold-xlarge">23</span>
+          <span class="data-item bold-xsmall">Alerts expired</span>
+        </div>
+      </div>
+
+      </div>
+
+      <div class="column-full" style="border-top: 1px solid #ccc;">
+        <div class="heading-medium">
+          Task summary
+        </div>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Users</th>
+            <th scope="col">Alerts open</th>
+            <th scope="col">Alerts with outcomes</th>
+            <th scope="col">Alerts expired</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr data-href="record-outcome">
+            <th scope="row">John Smith</th>
+            <td>20</td>
+            <td>56</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <th scope="row">Bill Shnooks</th>
+            <td>24</td>
+            <td>72</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <th scope="row">Julie Tharp</th>
+            <td>12</td>
+            <td>34</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <th scope="row">Jason Karp</th>
+            <td>4</td>
+            <td>12</td>
+            <td>34</td>
+          </tr>
+        </tbody>
+      </table>
+      <br/>
+      <p><a href="#" class="button button-secondary">Export MI</a></p>
+
+
+
+
+
+
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}
