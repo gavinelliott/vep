@@ -1,0 +1,84 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  MI
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-full">
+      <a href="javascript:history.back()" class="link-back">Back</a>
+      <h1 class="heading-xlarge">
+        John Smith
+        <span class="heading-secondary">Information breakdown</span>
+      </h1>
+    </div>
+
+    <div class="column-full">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Outcome</th>
+            <th scope="col">#</th>
+            <th scope="col">%</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr data-href="record-outcome">
+            <th scope="row">No change to award</th>
+            <td>5</td>
+            <td>8.9</td>
+          </tr>
+          <tr>
+            <th scope="row">Award increased</th>
+            <td>8</td>
+            <td>14.3</td>
+          </tr>
+          <tr>
+            <th scope="row">Award decreased</th>
+            <td>20</td>
+            <td>35.7</td>
+          </tr>
+          <tr>
+            <th scope="row">Already declared</th>
+            <td>5</td>
+            <td>16.4</td>
+          </tr>
+          <tr>
+            <th scope="row">Already averaged</th>
+            <td>10</td>
+            <td>12.3</td>
+          </tr>
+          <tr>
+            <th scope="row">Referred to fraud</th>
+            <td>1</td>
+            <td>3.9</td>
+          </tr>
+          <tr>
+            <th scope="row">Dormant</th>
+            <td>5</td>
+            <td>9.8</td>
+          </tr>
+          <tr>
+            <th scope="row">Incorrect RTI</th>
+            <td>2</td>
+            <td>4.3</td>
+          </tr>
+        </tbody>
+      </table>
+      <br/>
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}
